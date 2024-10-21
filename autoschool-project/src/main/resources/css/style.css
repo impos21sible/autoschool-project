@@ -1,0 +1,44 @@
+.anchor-pane {
+    -fx-background-color: #f0f0f0; /* Светло-серый фон для всех AnchorPane */
+}
+
+.button {
+    -fx-background-color: #007bff; /* Синий фон для всех кнопок */
+    -fx-text-fill: white; /* Белый цвет текста для всех кнопок */
+    -fx-font-size: 14px; /* Размер шрифта для всех кнопок */
+    -fx-padding: 10px 20px; /* Отступы для всех кнопок */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Темно-синий фон при наведении для всех кнопок */
+}
+
+.text-field, .password-field {
+    -fx-background-color: white; /* Белый фон для всех полей ввода */
+    -fx-border-color: #007bff; /* Синий цвет границы для всех полей ввода */
+    -fx-border-radius: 5px; /* Скругление углов для всех полей ввода */
+    -fx-padding: 10px; /* Отступы внутри всех полей ввода */
+}
+
+
+.text-field, .password-field {
+    -fx-font-family: "Arial"; /* Шрифт */
+    -fx-font-size: 14px; /* Размер шрифта */
+    -fx-text-fill: #333333; /* Цвет текста */
+    -fx-background-color: #ffffff; /* Цвет фона */
+    -fx-border-color: #007bff; /* Цвет рамки */
+    -fx-border-width: 2px; /* Толщина рамки */
+    -fx-border-radius: 5px; /* Скругленные углы рамки */
+    -fx-background-radius: 5px; /* Скругление фона */
+    -fx-padding: 5px; /* Внутренние отступы */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 5, 0.2, 0, 1); /* Легкая тень */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #0056b3; /* Цвет рамки при фокусе */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.3, 0, 2); /* Больше тени при фокусе */
+}
+
+.text-field:hover, .password-field:hover {
+    -fx-border-color: #0096ff; /* Цвет рамки при наведении */
+}
